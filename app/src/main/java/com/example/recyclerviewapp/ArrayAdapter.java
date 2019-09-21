@@ -1,6 +1,5 @@
 package com.example.recyclerviewapp;
 
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,21 +11,19 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class ArrayAdapter extends RecyclerView.Adapter<ArrayAdapter.ViewHolder> {
 
-     String[] Planets;
+     private String[] Planets;
 
-    public ArrayAdapter(String[] Planets) {
+    ArrayAdapter(String[] Planets) {
         this.Planets = Planets;
     }
 
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        Context context;
         LayoutInflater inflater = LayoutInflater.from( parent.getContext() );
         View v = inflater.inflate( R.layout.list_item,parent,false );
-        ViewHolder vh = new ViewHolder( v );
 
-        return vh;
+        return new ViewHolder( v );
     }
 
     @Override
@@ -40,9 +37,9 @@ public class ArrayAdapter extends RecyclerView.Adapter<ArrayAdapter.ViewHolder> 
         return Planets.length;
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    class ViewHolder extends RecyclerView.ViewHolder {
         TextView txtPlanet;
-        public ViewHolder(@NonNull View itemView) {
+        ViewHolder(@NonNull View itemView) {
             super( itemView );
              txtPlanet =itemView.findViewById( R.id.txtPlanet );
         }

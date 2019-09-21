@@ -1,4 +1,4 @@
-#Sun Sep 22 02:15:48 BDT 2019
+#Sun Sep 22 03:40:13 BDT 2019
 base.0=F\:\\AndroidStudioProjects\\RecyclerViewApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

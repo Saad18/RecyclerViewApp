@@ -1,11 +1,11 @@
 [
     {
-        "merged": "F:\\AndroidStudioProjects\\RecyclerViewApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "F:\\AndroidStudioProjects\\RecyclerViewApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "F:\\AndroidStudioProjects\\RecyclerViewApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "F:\\AndroidStudioProjects\\RecyclerViewApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\RecyclerViewApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "F:\\AndroidStudioProjects\\RecyclerViewApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "F:\\AndroidStudioProjects\\RecyclerViewApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",

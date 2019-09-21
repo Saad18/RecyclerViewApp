@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->F:\AndroidStudioProjects\RecyclerViewApp\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] C:\Users\SAAD\.gradle\caches\transforms-2\files-2.1\0b930d52c1aba4fb146ca382edc40f8d\core-1.1.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.1.0] C:\Users\SAAD\.gradle\caches\transforms-2\files-2.1\817f5f994f467f8f015ac529db244e2e\core-1.1.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@mipmap/ic_launcher"
