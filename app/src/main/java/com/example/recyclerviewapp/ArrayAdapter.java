@@ -20,7 +20,7 @@ public class ArrayAdapter extends RecyclerView.Adapter<ArrayAdapter.ViewHolder> 
 
     @NonNull
     @Override
-    public ArrayAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         Context context;
         LayoutInflater inflater = LayoutInflater.from( parent.getContext() );
         View v = inflater.inflate( R.layout.list_item,parent,false );
